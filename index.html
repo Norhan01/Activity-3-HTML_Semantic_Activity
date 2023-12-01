@@ -50,9 +50,35 @@
     <!-- Contact Section -->
 
     <section id="contact">
-
+        <h2>Contact Details</h2>
+            <form action="#home">
+                <label for="fname">Name:</label>
+                <input type="text" name="name" id="fname" placeholder="Ex. Juan Dela Cruz" required>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="juandelacruz@gmail.com" required>
+                <br>
+                <br>
+                <label for="feedback">Feedback:</label>
+                <br>
+                <textarea name="feedback" id="feedback" cols="30" rows="10" required></textarea>
+                <br>
+                <h2><strong>How do you rate this fighting scene? <br>
+                10 is the heighest and 1 is the lowest</strong></h2>
+                <label for="ten"><strong>10</strong></label>
+                <input type="radio" name="answer" id="ten" required><br>
+                <label for="five"><strong>5</strong></label>
+                <input type="radio" name="answer" id="five" required><br>
+                <label for="one"><strong>1</strong></label>
+                <input type="radio" name="answer" id="one" required>
+                <br>
+                <br>
+                <button type="submit" value="submit">Submit</button>
+            </form>
         
     </section>
+
 
     <hr>
 
